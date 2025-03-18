@@ -1,0 +1,34 @@
+{
+    "navbar": {
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "header": {
+        "greeting": "Hello, I'm",
+        "description": "I'm a web developer passionate about clean code and great design.",
+        "button": "See My Work"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "I'm a front-end developer with experience in JavaScript, React, and modern web technologies."
+    },
+    "projects": {
+        "title": "Projects",
+        "project1": {
+            "title": "Project 1",
+            "description": "Project description goes here."
+        },
+        "project2": {
+            "title": "Project 2",
+            "description": "Project description goes here."
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "email": "joaogabrielnb43@gmail.com"
+    },
+    "footer": {
+        "text": "© 2025 Portfolio. All rights reserved."
+    }
+}

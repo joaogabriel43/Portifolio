@@ -1,0 +1,34 @@
+{
+    "navbar": {
+        "about": "Sobre",
+        "projects": "Projetos",
+        "contact": "Contato"
+    },
+    "header": {
+        "greeting": "Olá, eu sou",
+        "description": "Sou um desenvolvedor web apaixonado por código limpo e ótimo design.",
+        "button": "Veja Meu Trabalho"
+    },
+    "about": {
+        "title": "Sobre Mim",
+        "description": "Sou um desenvolvedor front-end com experiência em JavaScript, React e tecnologias web modernas."
+    },
+    "projects": {
+        "title": "Projetos",
+        "project1": {
+            "title": "Projeto 1",
+            "description": "Descrição do projeto aqui."
+        },
+        "project2": {
+            "title": "Projeto 2",
+            "description": "Descrição do projeto aqui."
+        }
+    },
+    "contact": {
+        "title": "Contato",
+        "email": "joaogabrielnb43@gmail.com"
+    },
+    "footer": {
+        "text": "© 2025 Portifólio. Todos os direitos reservados."
+    }
+}
