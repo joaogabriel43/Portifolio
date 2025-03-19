@@ -6,12 +6,12 @@
     },
     "header": {
         "greeting": "Olá, eu sou",
-        "description": "Sou um desenvolvedor web apaixonado por código limpo e ótimo design.",
+        "description": "Desenvolvedor Full Stack | JavaScript, HTML, CSS, Java, C# & SQL",
         "button": "Veja Meu Trabalho"
     },
     "about": {
         "title": "Sobre Mim",
-        "description": "Sou um desenvolvedor front-end com experiência em JavaScript, React e tecnologias web modernas."
+        "description": "Sou um desenvolvedor Full Stack com experiência em JavaScript, HTML, CSS, Java, C# e SQL. Atuo no desenvolvimento de aplicações web e sistemas robustos, combinando um front-end dinâmico e responsivo com um back-end eficiente e escalável."
     },
     "projects": {
         "title": "Projetos",

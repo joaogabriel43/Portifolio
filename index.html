@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio - João Gabriel</title>
+        <title>Portfólio - João Gabriel</title>
         <link rel="stylesheet" href="styles.css">
         <script defer src="script.js"></script>
     </head>
@@ -13,9 +13,10 @@
         <nav>
             <div class="logo">João Gabriel Borba</div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
                 <li><button id="theme-toggle">🌙</button></li>
                 <li><button id="language-toggle">EN/PT</button></li>
             </ul>
@@ -23,39 +24,83 @@
     
         <!-- Header Section -->
         <header>
-            <h1>Hello, I'm <span class="highlight">João Gabriel Borba do Nascimento</span></h1>
-            <p>I'm a web developer passionate about clean code and great design.</p>
-            <a href="#projects" class="btn">See My Work</a>
+            <div class="intro">
+                <h1>João Gabriel Borba do Nascimento</h1>
+                <p>Desenvolvedor Full Stack | JavaScript, HTML, CSS, Java, C# & SQL</p>
+            </div>
+            <div class="photo">
+                <img src="img/Foto de perfil.jpg" alt="João Gabriel" class="profile-photo">
+            </div>
         </header>
     
         <!-- About Section -->
         <section id="about">
-            <h2>About Me</h2>
-            <p>I'm a front-end developer with experience in JavaScript, React, and modern web technologies.</p>
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <p>Sou um desenvolvedor Full Stack com experiência em JavaScript, HTML, CSS, Java, C# e SQL. Atuo no desenvolvimento de aplicações web e sistemas robustos, combinando um front-end dinâmico e responsivo com um back-end eficiente e escalável.</p>
+                <ul class="personal-info">
+                    <li>Idade: 25</li>
+                    <li>Nome Completo: João Gabriel Borba do Nascimento</li>
+                    <li>Projetos Concluídos: 10</li>
+                </ul>
+            </div>
         </section>
     
-        <!-- Projects Section -->
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Project description goes here.</p>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill"><img src="img/javascript.png" alt="JavaScript"></div>
+                <div class="skill"><img src="img/html.png" alt="HTML"></div>
+                <div class="skill"><img src="img/Css.png" alt="CSS"></div>
+                <div class="skill"><img src="img/java.png" alt="Java"></div>
+                <div class="skill"><img src="img/C.png" alt="C#"></div>
+                <div class="skill"><img src="img/sql server.png" alt="SQL"></div>
+                <!-- Add more icons as needed -->
             </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Project description goes here.</p>
+        </section>
+    
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="portfolio-grid">
+                <div class="project">
+                    <img src="path/to/project1-thumbnail.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do projeto aqui.</p>
+                    <a href="link-to-project" target="_blank" class="btn">Ver Projeto</a>
+                    <a href="link-to-github" target="_blank" class="btn">Repositório</a>
+                </div>
+                <div class="project">
+                    <img src="path/to/project2-thumbnail.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do projeto aqui.</p>
+                    <a href="link-to-project" target="_blank" class="btn">Ver Projeto</a>
+                    <a href="link-to-github" target="_blank" class="btn">Repositório</a>
+                </div>
+                <!-- Add more projects as needed -->
             </div>
         </section>
     
         <!-- Contact Section -->
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:your@email.com">Joaogabrielnb43@gmail.com</a></p>
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:joaogabrielnb43@gmail.com">joaogabrielnb43@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/joaogabriel" target="_blank">João Gabriel</a></p>
+                <p>GitHub: <a href="https://github.com/joaogabriel" target="_blank">joaogabriel</a></p>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Mensagem" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
         </section>
     
         <!-- Footer -->
         <footer>
-            <p>© 2025 João Gabriel Borba. All rights reserved.</p>
+            <p>© 2025 João Gabriel Borba. Todos os direitos reservados.</p>
         </footer>
     
     </body>

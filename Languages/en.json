@@ -1,34 +1,34 @@
 {
     "navbar": {
-        "about": "About",
-        "projects": "Projects",
-        "contact": "Contact"
+        "about": "Sobre",
+        "projects": "Projetos",
+        "contact": "Contato"
     },
     "header": {
-        "greeting": "Hello, I'm",
-        "description": "I'm a web developer passionate about clean code and great design.",
-        "button": "See My Work"
+        "greeting": "Olá, eu sou",
+        "description": "Desenvolvedor Full Stack | JavaScript, HTML, CSS, Java, C# & SQL",
+        "button": "Veja Meu Trabalho"
     },
     "about": {
-        "title": "About Me",
-        "description": "I'm a front-end developer with experience in JavaScript, React, and modern web technologies."
+        "title": "Sobre Mim",
+        "description": "Sou um desenvolvedor Full Stack com experiência em JavaScript, HTML, CSS, Java, C# e SQL. Atuo no desenvolvimento de aplicações web e sistemas robustos, combinando um front-end dinâmico e responsivo com um back-end eficiente e escalável."
     },
     "projects": {
-        "title": "Projects",
+        "title": "Projetos",
         "project1": {
-            "title": "Project 1",
-            "description": "Project description goes here."
+            "title": "Projeto 1",
+            "description": "Descrição do projeto aqui."
         },
         "project2": {
-            "title": "Project 2",
-            "description": "Project description goes here."
+            "title": "Projeto 2",
+            "description": "Descrição do projeto aqui."
         }
     },
     "contact": {
-        "title": "Contact",
+        "title": "Contato",
         "email": "joaogabrielnb43@gmail.com"
     },
     "footer": {
-        "text": "© 2025 Portfolio. All rights reserved."
+        "text": "© 2025 João Gabriel Borba. Todos os direitos reservados."
     }
 }
