@@ -92,8 +92,8 @@ header .photo {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px; /* Aumentar o tamanho da foto */
+    height: 200px; /* Aumentar o tamanho da foto */
     border-radius: 50%;
     transition: transform 0.3s;
 }
@@ -108,21 +108,46 @@ section {
     text-align: center;
 }
 
-.about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#about {
+    background-color: #f5f5f5; /* Cor de fundo para a seção */
+    padding: 1px 20px 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+#about h2 {
+    font-size: 24px;
+    margin: 5px 0;
+    color: #353535;
 }
 
-.about-content p {
-    width: 100%;
-    max-width: 600px;
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Add gap to control the space between elements */
+}
+
+.description, .personal-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.description {
+    text-align: left;
+    width: 60%;
+}
+#about ul {
+    padding: 20px;
+    margin: 0;
+    list-style: none;
 }
 
 .personal-info {
     list-style: none;
-    padding: 0;
-    margin-top: 20px;
+    width: 35%;
 }
 
 .personal-info li {
