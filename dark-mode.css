@@ -1,0 +1,54 @@
+/* Dark mode */
+:root {
+    --dark-background-color: #121212;
+    --dark-text-color: #ffffff;
+    --dark-accent-color: #3C6E71;
+    --dark-card-background: #1e1e1e;
+}
+
+
+body.dark-mode {
+    background-color: var(--dark-background-color);
+    color: var(--dark-text-color);
+}
+
+body.dark-mode nav {
+    background: var(--dark-accent-color);
+}
+
+body.dark-mode .logo,
+body.dark-mode .nav-links a,
+body.dark-mode #theme-toggle,
+body.dark-mode #language-toggle {
+    color: var(--dark-text-color);
+}
+
+body.dark-mode .btn {
+    background: var(--dark-accent-color);
+}
+
+body.dark-mode .project h3,
+body.dark-mode .project p {
+    color: var(--dark-text-color);
+}
+
+body.dark-mode footer {
+    background: var(--dark-accent-color);
+    color: var(--dark-text-color);
+}
+
+body.dark-mode #about {
+    background-color: #1a1a1a5d;
+}
+
+body.dark-mode #about h2,
+body.dark-mode #about p,
+body.dark-mode #about li {
+    color: var(--dark-text-color);
+}
+
+body.dark-mode .description,
+body.dark-mode .personal-info {
+    background-color: #3131312d;
+    color: var(--dark-text-color);
+}

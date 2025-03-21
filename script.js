@@ -6,18 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // Carregar tema salvo
     if (localStorage.getItem("theme") === "dark-mode") {
         document.body.classList.add("dark-mode");
-        themeToggle.textContent = "☀️";
+        themeToggle.checked = true;
     }
 
-    themeToggle.addEventListener("click", () => {
+    themeToggle.addEventListener("change", () => {
         document.body.classList.toggle("dark-mode");
 
-        // Atualiza o botão conforme o tema
+        // Atualiza o localStorage conforme o tema
         if (document.body.classList.contains("dark-mode")) {
-            themeToggle.textContent = "☀️";
             localStorage.setItem("theme", "dark-mode");
         } else {
-            themeToggle.textContent = "🌙";
             localStorage.setItem("theme", "");
         }
     });
