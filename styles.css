@@ -292,6 +292,7 @@ section {
 }
 
 /* Contact Section */
+
 .contact-info {
     margin-bottom: 20px;
 }
@@ -338,12 +339,22 @@ contact-info a:hover {
     background: var(--accent-color);
 }
 
+#contact {
+    margin-bottom: 50px; /* Adiciona uma margem inferior para aumentar a distância do footer */
+}
+
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 5px; /* Reduz o padding para diminuir a altura */
     background: var(--accent-color);
     color: var(--light-gray);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0; /* Remove a margem do parágrafo */
 }
 
 /* Media Queries for larger screens */
@@ -400,3 +411,14 @@ footer {
         padding: 70px 20px;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 10px; /* Reduz o padding para diminuir a altura */
+    background: var(--accent-color);
+    color: var(--light-gray);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
